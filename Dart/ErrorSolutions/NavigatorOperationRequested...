@@ -1,4 +1,4 @@
-/Error explation, so error name: Navigator operation requested with a context that does not include a Navigator in Flutter.
+/Error explanation, so error name: Navigator operation requested with a context that does not include a Navigator in Flutter.
 /If you want to solve this problem, please see this steps. We have to do 2 steps. These are:
 -----------------------------------------  -----------------------------------------  ----------------------------------------- 
                                                                                       /Changing the runApp code like this: 
