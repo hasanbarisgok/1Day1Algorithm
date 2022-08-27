@@ -1,30 +1,28 @@
 /Error explation, so error name: Navigator operation requested with a context that does not include a Navigator in Flutter.
 /If you want to solve this problem, please see this steps. We have to do 2 steps. These are:
- -----------------------------------------  -----------------------------------------  ----------------------------------------- 
-                                              /Changing the runApp code like this: 
+-----------------------------------------  -----------------------------------------  ----------------------------------------- 
+                                                                                      /Changing the runApp code like this: 
 -This Old code from top: 
 void main() {                                      
 runApp(const MyApp());            
 }
-
- -----------------------------------------  -----------------------------------------  ----------------------------------------- 
+-----------------------------------------  -----------------------------------------  ----------------------------------------- 
 -This is new code from top:
 void main() {
   runApp(MaterialApp(
       home: MyApp()));
-  }                                           #So,  we changed the top code which started with RunApp...
-   ----------------------------------------- -----------------------------------------  ----------------------------------------- 
-                                              /Changing the Stless/Stful code like this:
-  
-  /This is old code from widget class:
+  }                                                                 #So,  we changed the top code which started with RunApp...
+ ----------------------------------------- -----------------------------------------  ----------------------------------------- 
+                                                                                     /Changing the Stless/Stful code like this:
+/This is old code from widget class:
    return MaterialApp(
       home: Scaffold(),
       );                                      
- ----------------------------------------- -----------------------------------------  ----------------------------------------- 
-  /This is new code from widget class:
+----------------------------------------- -----------------------------------------  ----------------------------------------- 
+/This is new code from widget class:
   Widget build(BuildContext context) {
-    return Scaffold();                        #So,  we changed the class code which started with return MaterialApp...
- ----------------------------------------- -----------------------------------------  ----------------------------------------- 
+    return Scaffold();                                #So,  we changed the class code which started with return MaterialApp...
+----------------------------------------- -----------------------------------------  ----------------------------------------- 
 Also, if you didn't understand the article, you can watch the video to solve the problem for understanding more truely.
 The video: https://bit.ly/3cqARhf
   
