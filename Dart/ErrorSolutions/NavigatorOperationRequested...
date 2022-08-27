@@ -25,7 +25,7 @@ void main() {
   Widget build(BuildContext context) {
     return Scaffold();                        #So,  we changed the class code which started with return MaterialApp...
  ----------------------------------------- -----------------------------------------  ----------------------------------------- 
-Also, if you don't understand the article, you can watch the video to solve the problem for understanding more truely.
+Also, if you didn't understand the article, you can watch the video to solve the problem for understanding more truely.
 The video: https://bit.ly/3cqARhf
   
   
