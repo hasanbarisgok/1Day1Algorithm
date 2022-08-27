@@ -3,7 +3,7 @@
 # So we'll solve the problem with only a original nums list.
 
 nums = [0,0,1,1,1,2,2,3,3,4]
-l = 1 #We've gave the 1 value for l variable. Because on other steps we'll use l variable both counter and new duplicate value of the list. 
+l = 1 #We've gave the 1 value for variable l. Because on other steps we'll use variable l both counter and new duplicate value of the list. 
       #Thanks to this, we'll use the memory really low.
       #And our code will work really faster than others. You can see my Challange details. (Memory Usage, Runtime etc.)
 
