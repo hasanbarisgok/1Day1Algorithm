@@ -2,7 +2,7 @@
 /If you want to solve this problem, please see these steps. We have to do 2 steps. These are:
 -----------------------------------------  -----------------------------------------  ----------------------------------------- 
                                                                                       /Changing the runApp code like this: 
--This Old code from top: 
+-This is Old code from top: 
 void main() {                                      
 runApp(const MyApp());            
 }
