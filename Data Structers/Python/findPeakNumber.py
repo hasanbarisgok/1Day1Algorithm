@@ -31,3 +31,6 @@ def findPeakElement(nums):
 if __name__ == '__main__':
     nums = [5,20,40,60,80,100,101,99]
     print("En buyuk deger: ", findPeakElement(nums))
+
+ 
+#https://www.techiedelight.com/find-peak-element-array/
