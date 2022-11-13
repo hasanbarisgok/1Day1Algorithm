@@ -27,7 +27,7 @@ class Prime(object):
             _true_: The Num: {self.num} is not prime.
             _false_: "The Num: {self.num} is prime."
         """
-        if self.count < 2 or self.num == 2:
+        if self.count < 2 and self.num > 2 or self.num == 2:
                 self.result = True
         else:
                 self.result = False
